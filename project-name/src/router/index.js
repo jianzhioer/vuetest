@@ -7,7 +7,7 @@ Vue.use(Router) /* 使用路由 */
 export default new Router({
   routes: [ /* 进行路由配置，规定“/”引入到Hello组件 */
     {
-      path: '/',
+      path: '/test',
       name: 'HelloWorld', /* 这里的name同上，暂时没发现有什么意思 */
       component: HelloWorld /* 注册HelloWorld组件 */
     }
